@@ -664,6 +664,7 @@ export default class Table extends React.PureComponent {
       onRowRightClick,
       onRowMouseOver,
       onRowMouseOut,
+      parent,
       rowData,
       style: flattenedStyle,
     });

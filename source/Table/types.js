@@ -37,6 +37,7 @@ export type RowRendererParams = {
   onRowDoubleClick: ?Function,
   onRowMouseOver: ?Function,
   onRowMouseOut: ?Function,
+  parent: Object,
   rowData: any,
   style: any,
   key: string,
